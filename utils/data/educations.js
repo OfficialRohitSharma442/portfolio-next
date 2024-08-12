@@ -1,20 +1,20 @@
 export const educations = [
   {
     id: 1,
-    title: "Bachelor Degree",
-    duration: "2020 - Present",
-    institution: "National University of Bangladesh",
+    title: "Masters in Computer Application",
+    duration: "2024 - Present",
+    institution: "Shri Khushal Das University(Hanumangarth)",
   },
   {
     id: 2,
-    title: "Higher Secondary Certificate",
-    duration: "2018 - 2020",
-    institution: "Noakhali Islamia Kamil Madrasah",
+    title: "Bachelors’s in Computer Application",
+    duration: "2019 - 2021",
+    institution: "Maharaja Ganga Singh University(Bikaner)",
   },
   {
     id: 3,
-    title: "Secondary School Certificate",
-    duration: "2008 - 2018",
-    institution: "Baitus Saif Islamia Madrasah",
+    title: "High School",
+    duration: "2017 - 2018",
+    institution: "the Board of Secondary Education, Rajasthan",
   }
 ]
