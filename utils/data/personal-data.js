@@ -13,6 +13,6 @@ export const personalData = {
   stackOverflow: '#',
   leetcode: "https://leetcode.com/u/Rohit_sharma442/",
   devUsername: "RohitSharma",
-  resume: "https://drive.google.com/file/d/1mB8-dpQQTyBEVOt22C9eqkZHJ8EZ-PZN/view?usp=drive_link",
-  skillsHerosection: ["React", "NextJS", "Redux", "Express", "NestJS", "MySql", "MongoDB", "Docker", "AWS"]
+  resume: "https://drive.google.com/file/d/12gReCH7rD3ACGGiQ4Suux36qKXJoqf_F/view?usp=drivesdk",
+  skillsHerosection: ["React", "NextJS", "Redux", "Express", "NestJS", "MySql", "MongoDB", "Docker", "AWS", "Postsql"]
 }

@@ -16,9 +16,9 @@ export const projectsData = [
     },
     {
         id: 2,
-        name: 'Travel Agency App',
-        description: 'I have designed and developed a full-stack web app for 2Expedition, a travel agency in Armenia. I created the UI using NextJS, Typescript, MUI, TailwindCSS, Google Maps, Sun-Editor, and React Slick. The app supports multiple languages and currencies. I developed the API using NestJS, Typescript, MySQL, TypeORM, AWS, and Nodemailer. I deployed the front-end app to AWS Amplify and the back-end app to AWS EC2.',
-        tools: ['NextJS', 'Tailwind CSS', "Google Maps", "NestJS", "TypeScript", "MySQL", "AWS S3", "Sun-Editor", "Gmail Passkey"],
+        name: 'Human Resource Management System',
+        description: 'Developed HRMS - HR365, a cloud-based Human Resource Management System that integrates key HR functions including Employee Directory, Time Off Manager, Onboarding, Timesheet, Expense Tracker, and Recruitment Management. Designed to streamline HR operations, enhance employee engagement, and support compliance, the platform delivers real-time insights and automation to improve productivity and decision-making.',
+        tools: ['Tailwind CSS', "Spfx", "React js", "TypeScript", "Azure", "redux", "RTK query"],
         role: 'Full Stack Developer',
         code: '',
         demo: '',
