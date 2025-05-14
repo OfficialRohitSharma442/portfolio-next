@@ -1,9 +1,11 @@
 "use client"
 import { useEffect } from 'react';
 
-const GlowCard = ({ children , identifier}) => {
+const GlowCard = ({ children, identifier }) => {
   useEffect(() => {
-    const CONTAINER = document.querySelector(`.glow-container-${identifier}`);
+    // @ts-ignore
+    const CONTAINER = document?.querySelector(`.glow-container-${identifier}`);
+    // @ts-ignore
     const CARDS = document.querySelectorAll(`.glow-card-${identifier}`);
 
     const CONFIG = {
@@ -45,7 +47,7 @@ const GlowCard = ({ children , identifier}) => {
         CARD.style.setProperty('--start', ANGLE + 90);
       }
     };
-
+    //@ts-ignore 
     document.body.addEventListener('pointermove', UPDATE);
 
     const RESTYLE = () => {
@@ -63,6 +65,7 @@ const GlowCard = ({ children , identifier}) => {
 
     // Cleanup event listener
     return () => {
+      // @ts-ignore
       document.body.removeEventListener('pointermove', UPDATE);
     };
   }, [identifier]);
