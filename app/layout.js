@@ -11,9 +11,9 @@ import { personalData } from "@/utils/data/personal-data";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: `Portfolio of ${personalData.name || "Rohit Sharma"} - Software Developer`,
+  title: `Portfolio of ${personalData.name || "Rohitash Sharma"} - Software Developer`,
   description:
-    `This is the portfolio of ${personalData.name || "Rohit Sharma"}. I am a full stack developer and a self taught developer. I love to learn new things and I am always open to collaborating with others. I am a quick learner and I am always looking for new challenges.`,
+    `This is the portfolio of ${personalData.name || "Rohitash Sharma"}. I am a full stack developer and a self taught developer. I love to learn new things and I am always open to collaborating with others. I am a quick learner and I am always looking for new challenges.`,
 };
 
 export default function RootLayout({ children }) {
