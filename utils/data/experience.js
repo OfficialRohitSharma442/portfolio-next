@@ -6,21 +6,15 @@ export const experiences = [
     duration: "(Mar 2023 - Present)"
   },
   {
+    id: 1,
+    title: 'MERN Stack Developer',
+    company: "IT TechXpert Pvt. Ltd",
+    duration: "(Sep 2021 - Feb 2023)"
+  },
+  {
     id: 2,
-    title: "Full Stack Web Development",
+    title: "Full Stack Web Development Bootcamp",
     company: "Acciojob Pvt. Ltd.",
-    duration: "(Jun 2020 - Jan 2021)"
-  },
-  {
-    id: 2,
-    title: "Web Development Training",
-    company: "PiZone Infotech Solution Pvt. Ltd.",
-    duration: "(Jun 2018 - Jan 2019)"
-  },
-  {
-    id: 4,
-    title: "Self Employed",
-    company: "Code and build something in everyday.",
-    duration: "(Jan 2017 - Present)"
+    duration: "(Jun 2022 - Jan 2023)"
   }
 ]

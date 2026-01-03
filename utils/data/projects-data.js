@@ -51,7 +51,7 @@ export const projectsData = [
         tools: ['ReactJS', 'Fluent UI', 'Redux', 'Sun Editor', "Calendar", "Sharepoint", 'SCSS'],
         code: '',
         demo: '',
-        image: ayla,
+        image: "ayla",
         role: 'Full Stack Developer',
     }
 ];
