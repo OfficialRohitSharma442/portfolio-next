@@ -16,9 +16,13 @@ function ProjectCard({ project }) {
           <div className="h-2 w-2 lg:h-3 lg:w-3 rounded-full bg-orange-400"></div>
           <div className="h-2 w-2 lg:h-3 lg:w-3 rounded-full bg-green-200"></div>
         </div>
-        <p className="text-center ml-3 text-[#16f2b3] text-base lg:text-xl">
-          {project.name}
+        <p className="text-center ml-3 bg-gradient-to-r from-[#16f2b3] via-blue-500 to-purple-500 bg-[length:200%_200%] bg-clip-text text-transparent animate-gradient text-base lg:text-xl">
+          <a className='underline' href={project?.link} target="_blank" rel="noopener noreferrer">
+            {project.name}
+          </a>
         </p>
+       
+
       </div>
       <div className="overflow-hidden border-t-[2px] border-indigo-900 px-4 lg:px-8 py-4 lg:py-8">
         <code className="font-mono text-xs md:text-sm lg:text-base">
